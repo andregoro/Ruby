@@ -1,0 +1,128 @@
+I, [2019-03-30T17:34:11.229809 #6004]  INFO -- : [5fb93f10-79db-4d83-abf3-b8004dec2018] Started GET "/" for 127.0.0.1 at 2019-03-30 17:34:11 -0300
+I, [2019-03-30T17:34:11.231809 #6004]  INFO -- : [5fb93f10-79db-4d83-abf3-b8004dec2018] Processing by HomeController#index as HTML
+I, [2019-03-30T17:34:11.306813 #6004]  INFO -- : [5fb93f10-79db-4d83-abf3-b8004dec2018]   Rendering home/index.html.erb within layouts/application
+I, [2019-03-30T17:34:11.307814 #6004]  INFO -- : [5fb93f10-79db-4d83-abf3-b8004dec2018]   Rendered home/index.html.erb within layouts/application (0.6ms)
+I, [2019-03-30T17:34:11.323814 #6004]  INFO -- : [5fb93f10-79db-4d83-abf3-b8004dec2018] Completed 500 Internal Server Error in 92ms
+F, [2019-03-30T17:34:11.324814 #6004] FATAL -- : [5fb93f10-79db-4d83-abf3-b8004dec2018]   
+F, [2019-03-30T17:34:11.324814 #6004] FATAL -- : [5fb93f10-79db-4d83-abf3-b8004dec2018] ActionView::Template::Error (The asset "application.css" is not present in the asset pipeline.):
+F, [2019-03-30T17:34:11.324814 #6004] FATAL -- : [5fb93f10-79db-4d83-abf3-b8004dec2018]      5:     <%= csrf_meta_tags %>
+[5fb93f10-79db-4d83-abf3-b8004dec2018]      6:     <%= csp_meta_tag %>
+[5fb93f10-79db-4d83-abf3-b8004dec2018]      7:     <script type="text/javascript" src="/teste.js"></script>
+[5fb93f10-79db-4d83-abf3-b8004dec2018]      8:     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+[5fb93f10-79db-4d83-abf3-b8004dec2018]      9:     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+[5fb93f10-79db-4d83-abf3-b8004dec2018]     10:   </head>
+[5fb93f10-79db-4d83-abf3-b8004dec2018]     11: 
+F, [2019-03-30T17:34:11.324814 #6004] FATAL -- : [5fb93f10-79db-4d83-abf3-b8004dec2018]   
+F, [2019-03-30T17:34:11.324814 #6004] FATAL -- : [5fb93f10-79db-4d83-abf3-b8004dec2018] app/views/layouts/application.html.erb:8:in `_app_views_layouts_application_html_erb__427076147_44084760'
+I, [2019-03-30T17:34:12.775897 #6004]  INFO -- : [e1418240-6277-49d6-ac54-d81724bf65e5] Started GET "/" for 127.0.0.1 at 2019-03-30 17:34:12 -0300
+I, [2019-03-30T17:34:12.776898 #6004]  INFO -- : [e1418240-6277-49d6-ac54-d81724bf65e5] Processing by HomeController#index as HTML
+I, [2019-03-30T17:34:12.778898 #6004]  INFO -- : [e1418240-6277-49d6-ac54-d81724bf65e5]   Rendering home/index.html.erb within layouts/application
+I, [2019-03-30T17:34:12.778898 #6004]  INFO -- : [e1418240-6277-49d6-ac54-d81724bf65e5]   Rendered home/index.html.erb within layouts/application (0.1ms)
+I, [2019-03-30T17:34:12.799899 #6004]  INFO -- : [e1418240-6277-49d6-ac54-d81724bf65e5] Completed 500 Internal Server Error in 23ms
+F, [2019-03-30T17:34:12.801899 #6004] FATAL -- : [e1418240-6277-49d6-ac54-d81724bf65e5]   
+F, [2019-03-30T17:34:12.801899 #6004] FATAL -- : [e1418240-6277-49d6-ac54-d81724bf65e5] ActionView::Template::Error (The asset "application.css" is not present in the asset pipeline.):
+F, [2019-03-30T17:34:12.801899 #6004] FATAL -- : [e1418240-6277-49d6-ac54-d81724bf65e5]      5:     <%= csrf_meta_tags %>
+[e1418240-6277-49d6-ac54-d81724bf65e5]      6:     <%= csp_meta_tag %>
+[e1418240-6277-49d6-ac54-d81724bf65e5]      7:     <script type="text/javascript" src="/teste.js"></script>
+[e1418240-6277-49d6-ac54-d81724bf65e5]      8:     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+[e1418240-6277-49d6-ac54-d81724bf65e5]      9:     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+[e1418240-6277-49d6-ac54-d81724bf65e5]     10:   </head>
+[e1418240-6277-49d6-ac54-d81724bf65e5]     11: 
+F, [2019-03-30T17:34:12.801899 #6004] FATAL -- : [e1418240-6277-49d6-ac54-d81724bf65e5]   
+F, [2019-03-30T17:34:12.801899 #6004] FATAL -- : [e1418240-6277-49d6-ac54-d81724bf65e5] app/views/layouts/application.html.erb:8:in `_app_views_layouts_application_html_erb__427076147_44084760'
+I, [2019-03-30T17:34:13.456936 #6004]  INFO -- : [d045fb3c-d3b7-402f-9d7f-59a0dae59cc3] Started GET "/" for 127.0.0.1 at 2019-03-30 17:34:13 -0300
+I, [2019-03-30T17:34:13.457936 #6004]  INFO -- : [d045fb3c-d3b7-402f-9d7f-59a0dae59cc3] Processing by HomeController#index as HTML
+I, [2019-03-30T17:34:13.460937 #6004]  INFO -- : [d045fb3c-d3b7-402f-9d7f-59a0dae59cc3]   Rendering home/index.html.erb within layouts/application
+I, [2019-03-30T17:34:13.460937 #6004]  INFO -- : [d045fb3c-d3b7-402f-9d7f-59a0dae59cc3]   Rendered home/index.html.erb within layouts/application (0.1ms)
+I, [2019-03-30T17:34:13.476938 #6004]  INFO -- : [d045fb3c-d3b7-402f-9d7f-59a0dae59cc3] Completed 500 Internal Server Error in 19ms
+F, [2019-03-30T17:34:13.484938 #6004] FATAL -- : [d045fb3c-d3b7-402f-9d7f-59a0dae59cc3]   
+F, [2019-03-30T17:34:13.484938 #6004] FATAL -- : [d045fb3c-d3b7-402f-9d7f-59a0dae59cc3] ActionView::Template::Error (The asset "application.css" is not present in the asset pipeline.):
+F, [2019-03-30T17:34:13.484938 #6004] FATAL -- : [d045fb3c-d3b7-402f-9d7f-59a0dae59cc3]      5:     <%= csrf_meta_tags %>
+[d045fb3c-d3b7-402f-9d7f-59a0dae59cc3]      6:     <%= csp_meta_tag %>
+[d045fb3c-d3b7-402f-9d7f-59a0dae59cc3]      7:     <script type="text/javascript" src="/teste.js"></script>
+[d045fb3c-d3b7-402f-9d7f-59a0dae59cc3]      8:     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+[d045fb3c-d3b7-402f-9d7f-59a0dae59cc3]      9:     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+[d045fb3c-d3b7-402f-9d7f-59a0dae59cc3]     10:   </head>
+[d045fb3c-d3b7-402f-9d7f-59a0dae59cc3]     11: 
+F, [2019-03-30T17:34:13.484938 #6004] FATAL -- : [d045fb3c-d3b7-402f-9d7f-59a0dae59cc3]   
+F, [2019-03-30T17:34:13.484938 #6004] FATAL -- : [d045fb3c-d3b7-402f-9d7f-59a0dae59cc3] app/views/layouts/application.html.erb:8:in `_app_views_layouts_application_html_erb__427076147_44084760'
+I, [2019-03-30T17:34:13.672949 #6004]  INFO -- : [cbdfc4ea-5323-4f56-b07b-09369c3762ae] Started GET "/" for 127.0.0.1 at 2019-03-30 17:34:13 -0300
+I, [2019-03-30T17:34:13.673949 #6004]  INFO -- : [cbdfc4ea-5323-4f56-b07b-09369c3762ae] Processing by HomeController#index as HTML
+I, [2019-03-30T17:34:13.676949 #6004]  INFO -- : [cbdfc4ea-5323-4f56-b07b-09369c3762ae]   Rendering home/index.html.erb within layouts/application
+I, [2019-03-30T17:34:13.676949 #6004]  INFO -- : [cbdfc4ea-5323-4f56-b07b-09369c3762ae]   Rendered home/index.html.erb within layouts/application (0.1ms)
+I, [2019-03-30T17:34:13.698950 #6004]  INFO -- : [cbdfc4ea-5323-4f56-b07b-09369c3762ae] Completed 500 Internal Server Error in 24ms
+F, [2019-03-30T17:34:13.698950 #6004] FATAL -- : [cbdfc4ea-5323-4f56-b07b-09369c3762ae]   
+F, [2019-03-30T17:34:13.699950 #6004] FATAL -- : [cbdfc4ea-5323-4f56-b07b-09369c3762ae] ActionView::Template::Error (The asset "application.css" is not present in the asset pipeline.):
+F, [2019-03-30T17:34:13.699950 #6004] FATAL -- : [cbdfc4ea-5323-4f56-b07b-09369c3762ae]      5:     <%= csrf_meta_tags %>
+[cbdfc4ea-5323-4f56-b07b-09369c3762ae]      6:     <%= csp_meta_tag %>
+[cbdfc4ea-5323-4f56-b07b-09369c3762ae]      7:     <script type="text/javascript" src="/teste.js"></script>
+[cbdfc4ea-5323-4f56-b07b-09369c3762ae]      8:     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+[cbdfc4ea-5323-4f56-b07b-09369c3762ae]      9:     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+[cbdfc4ea-5323-4f56-b07b-09369c3762ae]     10:   </head>
+[cbdfc4ea-5323-4f56-b07b-09369c3762ae]     11: 
+F, [2019-03-30T17:34:13.699950 #6004] FATAL -- : [cbdfc4ea-5323-4f56-b07b-09369c3762ae]   
+F, [2019-03-30T17:34:13.699950 #6004] FATAL -- : [cbdfc4ea-5323-4f56-b07b-09369c3762ae] app/views/layouts/application.html.erb:8:in `_app_views_layouts_application_html_erb__427076147_44084760'
+I, [2019-03-30T17:34:23.116489 #6004]  INFO -- : [9fd32669-05bb-43d3-b32b-61e738e3aba7] Started GET "/" for 127.0.0.1 at 2019-03-30 17:34:23 -0300
+I, [2019-03-30T17:34:23.117489 #6004]  INFO -- : [9fd32669-05bb-43d3-b32b-61e738e3aba7] Processing by HomeController#index as HTML
+I, [2019-03-30T17:34:23.118489 #6004]  INFO -- : [9fd32669-05bb-43d3-b32b-61e738e3aba7]   Rendering home/index.html.erb within layouts/application
+I, [2019-03-30T17:34:23.119489 #6004]  INFO -- : [9fd32669-05bb-43d3-b32b-61e738e3aba7]   Rendered home/index.html.erb within layouts/application (0.1ms)
+I, [2019-03-30T17:34:23.134490 #6004]  INFO -- : [9fd32669-05bb-43d3-b32b-61e738e3aba7] Completed 500 Internal Server Error in 16ms
+F, [2019-03-30T17:34:23.135490 #6004] FATAL -- : [9fd32669-05bb-43d3-b32b-61e738e3aba7]   
+F, [2019-03-30T17:34:23.135490 #6004] FATAL -- : [9fd32669-05bb-43d3-b32b-61e738e3aba7] ActionView::Template::Error (The asset "application.css" is not present in the asset pipeline.):
+F, [2019-03-30T17:34:23.135490 #6004] FATAL -- : [9fd32669-05bb-43d3-b32b-61e738e3aba7]      5:     <%= csrf_meta_tags %>
+[9fd32669-05bb-43d3-b32b-61e738e3aba7]      6:     <%= csp_meta_tag %>
+[9fd32669-05bb-43d3-b32b-61e738e3aba7]      7:     <script type="text/javascript" src="/teste.js"></script>
+[9fd32669-05bb-43d3-b32b-61e738e3aba7]      8:     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+[9fd32669-05bb-43d3-b32b-61e738e3aba7]      9:     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+[9fd32669-05bb-43d3-b32b-61e738e3aba7]     10:   </head>
+[9fd32669-05bb-43d3-b32b-61e738e3aba7]     11: 
+F, [2019-03-30T17:34:23.135490 #6004] FATAL -- : [9fd32669-05bb-43d3-b32b-61e738e3aba7]   
+F, [2019-03-30T17:34:23.135490 #6004] FATAL -- : [9fd32669-05bb-43d3-b32b-61e738e3aba7] app/views/layouts/application.html.erb:8:in `_app_views_layouts_application_html_erb__427076147_44084760'
+I, [2019-03-30T17:34:55.925365 #6004]  INFO -- : [7583944c-ec66-4c2f-b094-6fb26ad1230d] Started GET "/" for 127.0.0.1 at 2019-03-30 17:34:55 -0300
+I, [2019-03-30T17:34:55.926366 #6004]  INFO -- : [7583944c-ec66-4c2f-b094-6fb26ad1230d] Processing by HomeController#index as HTML
+I, [2019-03-30T17:34:55.928366 #6004]  INFO -- : [7583944c-ec66-4c2f-b094-6fb26ad1230d]   Rendering home/index.html.erb within layouts/application
+I, [2019-03-30T17:34:55.928366 #6004]  INFO -- : [7583944c-ec66-4c2f-b094-6fb26ad1230d]   Rendered home/index.html.erb within layouts/application (0.1ms)
+I, [2019-03-30T17:34:55.946367 #6004]  INFO -- : [7583944c-ec66-4c2f-b094-6fb26ad1230d] Completed 500 Internal Server Error in 19ms
+F, [2019-03-30T17:34:55.946367 #6004] FATAL -- : [7583944c-ec66-4c2f-b094-6fb26ad1230d]   
+F, [2019-03-30T17:34:55.947367 #6004] FATAL -- : [7583944c-ec66-4c2f-b094-6fb26ad1230d] ActionView::Template::Error (The asset "application.css" is not present in the asset pipeline.):
+F, [2019-03-30T17:34:55.947367 #6004] FATAL -- : [7583944c-ec66-4c2f-b094-6fb26ad1230d]      5:     <%= csrf_meta_tags %>
+[7583944c-ec66-4c2f-b094-6fb26ad1230d]      6:     <%= csp_meta_tag %>
+[7583944c-ec66-4c2f-b094-6fb26ad1230d]      7:     <script type="text/javascript" src="/teste.js"></script>
+[7583944c-ec66-4c2f-b094-6fb26ad1230d]      8:     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+[7583944c-ec66-4c2f-b094-6fb26ad1230d]      9:     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+[7583944c-ec66-4c2f-b094-6fb26ad1230d]     10:   </head>
+[7583944c-ec66-4c2f-b094-6fb26ad1230d]     11: 
+F, [2019-03-30T17:34:55.947367 #6004] FATAL -- : [7583944c-ec66-4c2f-b094-6fb26ad1230d]   
+F, [2019-03-30T17:34:55.947367 #6004] FATAL -- : [7583944c-ec66-4c2f-b094-6fb26ad1230d] app/views/layouts/application.html.erb:8:in `_app_views_layouts_application_html_erb__427076147_44084760'
+I, [2019-03-30T17:37:23.974833 #5452]  INFO -- : [d84e2978-197d-4407-b8f9-3e879a6f68e2] Started GET "/" for 127.0.0.1 at 2019-03-30 17:37:23 -0300
+I, [2019-03-30T17:37:23.976834 #5452]  INFO -- : [d84e2978-197d-4407-b8f9-3e879a6f68e2] Processing by HomeController#index as HTML
+I, [2019-03-30T17:37:24.037837 #5452]  INFO -- : [d84e2978-197d-4407-b8f9-3e879a6f68e2]   Rendering home/index.html.erb within layouts/application
+I, [2019-03-30T17:37:24.038837 #5452]  INFO -- : [d84e2978-197d-4407-b8f9-3e879a6f68e2]   Rendered home/index.html.erb within layouts/application (1.2ms)
+I, [2019-03-30T17:37:24.054838 #5452]  INFO -- : [d84e2978-197d-4407-b8f9-3e879a6f68e2] Completed 500 Internal Server Error in 77ms
+F, [2019-03-30T17:37:24.055838 #5452] FATAL -- : [d84e2978-197d-4407-b8f9-3e879a6f68e2]   
+F, [2019-03-30T17:37:24.055838 #5452] FATAL -- : [d84e2978-197d-4407-b8f9-3e879a6f68e2] ActionView::Template::Error (The asset "application.css" is not present in the asset pipeline.):
+F, [2019-03-30T17:37:24.055838 #5452] FATAL -- : [d84e2978-197d-4407-b8f9-3e879a6f68e2]      5:     <%= csrf_meta_tags %>
+[d84e2978-197d-4407-b8f9-3e879a6f68e2]      6:     <%= csp_meta_tag %>
+[d84e2978-197d-4407-b8f9-3e879a6f68e2]      7:     <script type="text/javascript" src="/teste.js"></script>
+[d84e2978-197d-4407-b8f9-3e879a6f68e2]      8:     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+[d84e2978-197d-4407-b8f9-3e879a6f68e2]      9:     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+[d84e2978-197d-4407-b8f9-3e879a6f68e2]     10:   </head>
+[d84e2978-197d-4407-b8f9-3e879a6f68e2]     11: 
+F, [2019-03-30T17:37:24.055838 #5452] FATAL -- : [d84e2978-197d-4407-b8f9-3e879a6f68e2]   
+F, [2019-03-30T17:37:24.055838 #5452] FATAL -- : [d84e2978-197d-4407-b8f9-3e879a6f68e2] app/views/layouts/application.html.erb:8:in `_app_views_layouts_application_html_erb__937140386_42488080'
+I, [2019-03-30T17:52:05.201237 #5068]  INFO -- : [80089087-b777-40ee-b533-a556d97b9492] Started GET "/" for 127.0.0.1 at 2019-03-30 17:52:05 -0300
+I, [2019-03-30T17:52:05.202237 #5068]  INFO -- : [80089087-b777-40ee-b533-a556d97b9492] Processing by HomeController#index as HTML
+I, [2019-03-30T17:52:05.255240 #5068]  INFO -- : [80089087-b777-40ee-b533-a556d97b9492]   Rendering home/index.html.erb within layouts/application
+I, [2019-03-30T17:52:05.257240 #5068]  INFO -- : [80089087-b777-40ee-b533-a556d97b9492]   Rendered home/index.html.erb within layouts/application (0.9ms)
+I, [2019-03-30T17:52:05.272241 #5068]  INFO -- : [80089087-b777-40ee-b533-a556d97b9492] Completed 500 Internal Server Error in 69ms
+F, [2019-03-30T17:52:05.273241 #5068] FATAL -- : [80089087-b777-40ee-b533-a556d97b9492]   
+F, [2019-03-30T17:52:05.273241 #5068] FATAL -- : [80089087-b777-40ee-b533-a556d97b9492] ActionView::Template::Error (The asset "application.css" is not present in the asset pipeline.):
+F, [2019-03-30T17:52:05.273241 #5068] FATAL -- : [80089087-b777-40ee-b533-a556d97b9492]      5:     <%= csrf_meta_tags %>
+[80089087-b777-40ee-b533-a556d97b9492]      6:     <%= csp_meta_tag %>
+[80089087-b777-40ee-b533-a556d97b9492]      7:     <script type="text/javascript" src="/teste.js"></script>
+[80089087-b777-40ee-b533-a556d97b9492]      8:     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+[80089087-b777-40ee-b533-a556d97b9492]      9:     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+[80089087-b777-40ee-b533-a556d97b9492]     10:   </head>
+[80089087-b777-40ee-b533-a556d97b9492]     11: 
+F, [2019-03-30T17:52:05.273241 #5068] FATAL -- : [80089087-b777-40ee-b533-a556d97b9492]   
+F, [2019-03-30T17:52:05.273241 #5068] FATAL -- : [80089087-b777-40ee-b533-a556d97b9492] app/views/layouts/application.html.erb:8:in `_app_views_layouts_application_html_erb__601860313_66251540'
