@@ -1,0 +1,24 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Titulo:</strong>
+  <%= @busca.titulo %>
+</p>
+
+<p>
+  <strong>Conteudo:</strong>
+  <%= @busca.conteudo %>
+</p>
+
+<p>
+  <strong>Imagem:</strong>
+  <%= @busca.imagem %>
+</p>
+
+<p>
+  <strong>Link origem:</strong>
+  <%= @busca.link_origem %>
+</p>
+
+<%= link_to 'Edit', edit_busca_path(@busca) %> |
+<%= link_to 'Back', buscas_path %>

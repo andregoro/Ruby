@@ -1,0 +1,37 @@
+<%= form_with(model: busca, local: true) do |form| %>
+  <% if busca.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(busca.errors.count, "error") %> prohibited this busca from being saved:</h2>
+
+      <ul>
+      <% busca.errors.full_messages.each do |message| %>
+        <li><%= message %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="field">
+    <%= form.label :titulo %>
+    <%= form.text_field :titulo %>
+  </div>
+
+  <div class="field">
+    <%= form.label :conteudo %>
+    <%= form.text_area :conteudo %>
+  </div>
+
+  <div class="field">
+    <%= form.label :imagem %>
+    <%= form.text_field :imagem %>
+  </div>
+
+  <div class="field">
+    <%= form.label :link_origem %>
+    <%= form.text_field :link_origem %>
+  </div>
+
+  <div class="actions">
+    <%= form.submit %>
+  </div>
+<% end %>
