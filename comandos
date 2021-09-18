@@ -1,0 +1,4 @@
+rails new projeto _> cria projeto
+rails g scaffold var:tipo _>cria variaveis ou crud 
+rails db:create db:migrate
+rails s
